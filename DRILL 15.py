@@ -1,4 +1,4 @@
-'''a = set()    ###14
+a = set()    ###14
 b = {3,6,9,12}
 c = {1,3,5,7,9,11}
 
@@ -103,7 +103,7 @@ ans = []
 for a1,a2 in combinations(Ox,2):
     if all(f(x)==1 for x in Ox):
         ans.append(a2-a1)
-print(min(ans))'''
+print(min(ans))
 
 
 
